@@ -13,7 +13,7 @@ def ask_wolfram(query: str="") -> str:
     '''Use Wolfram Alpha API to answer a question.
     :param query: question to Wolfram Alpha
 
-    :raises IOError: unable to retrieve data Wolfram Alpha
+    :raises IOError: unable to retrieve data from Wolfram Alpha
 
     :returns: answer from Wolfram Alpha
     '''
