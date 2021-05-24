@@ -8,7 +8,7 @@ Recipe: Never give up. If one thinks that there is only good old recursion way t
 ---
 
 
-1. Fibonacci Numbers and Web Scrapping with Python:</ins>
+1. Fibonacci Numbers and Web Scraping with Python:</ins>
 
 [web_scraper.py](https://github.com/v1k1nghawk/evenacci/blob/master/web_scraper.py)</ins>
 
