@@ -2,7 +2,7 @@
 
 * _How to get even Fibonacci numbers:_
 
-Recipe: Never give up. If one thinks that there is only good old recursion way to obtain the desired even Fibonacci numbers, "you can take that to the bank, father. There is always another way." @ Neil Oliver. Let's find a few from the infinite universe of possibilities:</ins>
+Recipe: Never give up. If one thinks that there is only one way to obtain the desired even Fibonacci numbers, "you can take that to the bank, Dad. There is always another way." @ Neil Oliver. Let's find a few from the infinite universe of possibilities:</ins>
 
 
 ---
