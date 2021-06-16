@@ -16,6 +16,10 @@ def f(quant: int=0) -> int:
 
     :returns: status (0 if successful)
     '''
+    if isinstance(quant, int) != True or quant <= 0:
+        print("Invalid argument")
+        return 1
+
     phi = (1 + math.sqrt(5)) / 2
     even_counter = 0
     fib_index = 0
@@ -26,6 +30,7 @@ def f(quant: int=0) -> int:
         print(str(F_i), end="", flush=True)
         even_counter += 1
         fib_index += 3
+    print("")
 
     return 0
 
