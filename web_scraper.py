@@ -48,27 +48,25 @@ def f(quant: int=0) -> int:
 
     # F_0
     print(0, end="", flush=True)
-    # Extract required even Fibonacci numbers
+    # Extract even Fibonacci numbers
     even_counter = 1
-    overall_counter = 1
-    prev_fibnum = ""
+    next_even_index = 3
     for line in raw_fibo_data.splitlines():
         if even_counter == quant:
             break
         position_fibnum = line.split(" ")
         try:
-            if (int(position_fibnum[0]) == overall_counter):
+            if (int(position_fibnum[0]) == next_even_index):
                 fib_num = int(position_fibnum[1][:-len("<br>")])
-                if fib_num % 2 == 0:
-                    print(", " + str(fib_num), end="", flush=True)
-                    even_counter += 1
-                overall_counter += 1
+                print(", " + str(fib_num), end="", flush=True)
+                even_counter += 1
+                next_even_index += 3
         except ValueError as e:
             pass
     print("")
 
     if even_counter != quant:
-        print("Fibonacci sequence even quantity error")
+        print("Failed to extract all required even Fibonacci numbers")
         return 3
     return 0
 
