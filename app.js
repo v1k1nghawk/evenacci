@@ -1,4 +1,3 @@
-//Объекты  (eto toze tip dannih)
 
 let a =1
 let b = 1
