@@ -22,3 +22,5 @@ Recipe: Never give up. If one thinks that there is only one way to obtain the de
 
 [ml_obtainer.py](https://github.com/v1k1nghawk/evenacci/blob/master/ml_obtainer.py) - uses ML model</ins>
 
+4. Fibonacci Sequence by sipmle circles on JavaScript:</ins>
+[app.js](https://github.com/v1k1nghawk/evenacci/blob/master/app.js)</ins>
