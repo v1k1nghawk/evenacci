@@ -1,19 +1,31 @@
 
-let a =1
-let b = 1
-let c = 2
 function fib(num) {
- for(let i = 1; i<num;i++)
- {
-     c = a+b
-     a = b;
-     b = c;
+    let a = 1
+    let b = 1
+    let c = 2
+    let counter = 0
 
-      if((c>>1)<<1 === c)
-         console.log(c)
- }
+    while(counter < num) {
+        c = a + b
+        a = b;
+        b = c;
+        //if((c>>1)<<1 === c)
+        if(!(c%2))
+        {
+            console.log(c)
+            counter++
+        }
+    }
 }
-var number = prompt('Enter number:')
-fib(number)
+function enter_number() {
+    let num = prompt('Введите положительное целое число:')
+
+    while ((Number.parseInt(num).toString() !== num) || (num <= 0))
+    {
+       num = prompt('Введите положительное целое число:')
+    }
+    fib(num)
+}
+enter_number()
 
 
